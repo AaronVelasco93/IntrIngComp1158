@@ -4,11 +4,12 @@
 
 int main(int argc, char** argv) {
 	
-	int numero =10;
+	int numero = 1;
 	
-	while(numero == 10){
+	while(numero <= 10){
 		
-		printf("Hola mundo");
+		printf("\n 3x%i=%i",numero,(numero*3));
+		numero++;
 	}
 	
 	
